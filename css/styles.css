@@ -925,6 +925,23 @@ stroke: currentColor;
 fill: currentColor;
 }
 
+.form-input:focus + .person,
+.form-input:hover + .person{
+fill: var(--color-brand);
+border: 1px solid var(--color-brand-second);
+border-radius: 4px;
+}
+
+.for
+
+.form-input:focus + .phone-email,
+.form-input:hover + .phone-email{
+fill: var(--color-brand);
+border: 1px solid var(--color-brand-second);
+border-radius: 4px;
+}
+
+
 /* Inputs */
 
 .title-modal{
