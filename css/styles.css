@@ -832,9 +832,9 @@ font-weight: 500;
 transition: background 250ms var(--animaticion), color 250ms var(--animaticion);
 }
 
-.button-footer:hover{
+.button-footer:hover,
+.button-footer:focus{
 background: var(--color-brand);
-
 }
 
 .input-footer {
