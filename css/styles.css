@@ -846,7 +846,8 @@ box-sizing: border-box;
 background-color: transparent;
 margin-right: 24px;
 color: var(--color-button-title);
-width: 200px;
+width: 264px;
+height: 40px;
 }
 
 .text-logo-social{
@@ -968,7 +969,7 @@ font-size: 16px;
 line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
-padding-bottom: 16px;
+margin-bottom: 16px;
 }
 
 .form-label {
@@ -983,7 +984,7 @@ color: var(--color-modal-text);
 display: flex;
 flex-direction: column;
 padding: 0px;
-gap: 8px;
+
 }
 
 .icon-modal{
@@ -993,12 +994,13 @@ position: absolute;
 left:19px;
 margin-top: 11px;
 margin-bottom: 11px;
+
+transition: fill 250ms var(--animaticion);
 }
 
 .icon-modal:hover,
 .icon-modal:focus{
 fill:var(--color-brand-second);
-
 }
 
 .icons-modal:hover,
@@ -1010,13 +1012,14 @@ fill: var(--color-brand-second);
 .icons-modal {
 width: 18px;
 height: 24px;
-left: 0;
+left: 16px;
 position: absolute;
+top: 8px;
+
+transition: fill 250ms var(--animaticion);
 }
 
-.phone-email{
- margin: 8px 326px 8px 16px;
-}
+
 
 .comment{
 margin-top: 8px; 
@@ -1048,7 +1051,15 @@ font-weight: 400;
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
+padding-left: 38px;
+margin-bottom: 8px;
 
+transition: border 250ms var(--animaticion), 
+border-radius 250ms var(--animaticion) ;
+}
+
+.input-form{
+padding-left: 16px;
 }
 
 .form-input:hover,
@@ -1077,6 +1088,13 @@ height: 16px;
 box-sizing: border-box;
 border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 2px;
+
+}
+
+.form-checkbox{
+width: 360px;
+height: 16px;
+text-align: center;
 }
 
 .text-check{
